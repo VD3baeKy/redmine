@@ -1,5 +1,5 @@
 # "Redmine"(レッドマイン)について
-@[card](https://redmine.jp/)
+[https://redmine.jp/](https://redmine.jp/)
 * オープンソースの課題管理システム。
 * 課題やタスクをチケットとして登録し、実施した作業を記録していくことで資産として残せる。
 * プロジェクト管理、タスク管理、イベント開催時の管理、お客様とのお問い合わせ対応の管理にも利用できる。
@@ -15,16 +15,15 @@
 |ユーザー同士でテーマごとに議論するときに役に立つ掲示板機能（フォーラム）|
 
 * "Redmine"以外には、[Jooto（ジョートー）](https://www.jooto.com)などがある。
-@[card](https://www.jooto.com)
+[https://www.jooto.com](https://www.jooto.com)
 
 # "Redmine"デモサイト
 [https://my.redmine.jp/demo/](https://my.redmine.jp/demo/)
-@[card](https://my.redmine.jp/demo/)
 
 
 # "Redmine"公式：日本語ドキュメント
 [https://redmine.jp/guide/](https://redmine.jp/guide/)
-@[card](https://redmine.jp/guide/)
+[https://redmine.jp/guide/](https://redmine.jp/guide/)
 
 
 ## "Redmine" on windows
@@ -261,8 +260,8 @@ gem "rmagick", "~> 6.1"
 |:---:|
 | ```rubyinstaller-devkit～x64.exe``` |
 
-@[card](https://rubyinstaller.org/downloads/)
-@[card](https://prog-8.com/docs/ruby-env-win)
+[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
+[https://prog-8.com/docs/ruby-env-win](https://prog-8.com/docs/ruby-env-win)
 
 
 ## SQLite3のインストール
@@ -284,8 +283,8 @@ gem "rmagick", "~> 6.1"
 
 ## "Remdmine"のインストール
 * ```webrick```, ```ImageMagick```, ```rmagick```をインストールしてから"Remdmine"をインストールする。
-@[card](https://qiita.com/Phinloda/items/58afa1e42a36503bf076)
-@[card](https://redmine.jp/guide/RedmineInstall/#_3)
+[https://qiita.com/Phinloda/items/58afa1e42a36503bf076](https://qiita.com/Phinloda/items/58afa1e42a36503bf076)
+[https://redmine.jp/guide/RedmineInstall/#_3](https://redmine.jp/guide/RedmineInstall/#_3)
 
 1. コマンドプロンプトを立ち上げて、```remdmine```のディレクトリへ移動する。
 2. コマンドプロンプトで```gem install webrick```を入力して```webrick```をインストールする。
@@ -298,12 +297,12 @@ imagemagick.org/script/download.php#windows)でダウンロード可能。
 | ```ImageMagick-～-Q16-x64-static.exe``` |
 
 ```ImageMagick```インストール中の```Setup```のダイアログで、 **```Install development headers and libraries for C and C++```にチェックを入れる。**
-@[card](https://www.redmine.org/projects/redmine/wiki/HowTo_install_rmagick_gem_on_Windows)
+[https://www.redmine.org/projects/redmine/wiki/HowTo_install_rmagick_gem_on_Windows](https://www.redmine.org/projects/redmine/wiki/HowTo_install_rmagick_gem_on_Windows)
 4. ```ImageMagick```をインストールしたら、```ImageMagick```の```PATH```をセットする：　```set Path=%PATH%;C:\usr\local\ImageMagick-〇〇〇-Q16-HDRI;```
 5. コマンドプロンプトを立ち上げなおす。
 6. ```rmagick```をインストールする：　```gem install rmagick```
 7. 公式の手順通りに```Bundler```を実行：　```bundle install --without development test```
-@[card](https://redmine.jp/guide/RedmineInstall/#_3)
+[https://redmine.jp/guide/RedmineInstall/#_3](https://redmine.jp/guide/RedmineInstall/#_3)
 8. ```webrick```と```rmagick```が入っていないため、手動で追加：　```bundle add webrick rmagick```
 9. セッションストア秘密鍵を生成する：　```bundle exec rake generate_secret_token```
 10. データベースのテーブル等の作成： 
@@ -313,7 +312,7 @@ imagemagick.org/script/download.php#windows)でダウンロード可能。
 ```set RAILS_ENV=production```
 ```bundle exec rake redmine:load_default_data```
 
-@[card](https://aquasoftware.net/blog/?p=658)
+[https://aquasoftware.net/blog/?p=658](https://aquasoftware.net/blog/?p=658)
 
 
 ## "Redmine"インストールの確認
