@@ -23,7 +23,6 @@
 
 # "Redmine"公式：日本語ドキュメント
 [https://redmine.jp/guide/](https://redmine.jp/guide/)
-[https://redmine.jp/guide/](https://redmine.jp/guide/)
 
 
 ## "Redmine" on windows
