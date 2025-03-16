@@ -259,7 +259,7 @@ gem "rmagick", "~> 6.1"
 |:---:|
 | ```rubyinstaller-devkit～x64.exe``` |
 
-[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
+[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)  
 [https://prog-8.com/docs/ruby-env-win](https://prog-8.com/docs/ruby-env-win)
 
 
